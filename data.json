@@ -4,110 +4,139 @@
     {
       "id": "google",
       "name": "Google",
-      "title": "Search the world's information",
+      "title": "Search the web",
       "url": "https://www.google.com",
       "icon": "https://www.google.com/favicon.ico",
       "category": "Search",
       "order": 1
     },
     {
-      "id": "youtube",
-      "name": "YouTube",
-      "title": "Watch and discover videos",
-      "url": "https://www.youtube.com",
-      "icon": "https://www.youtube.com/favicon.ico",
-      "category": "Entertainment",
+      "id": "bing",
+      "name": "Bing",
+      "title": "Microsoft web search",
+      "url": "https://www.bing.com",
+      "icon": "https://www.bing.com/favicon.ico",
+      "category": "Search",
       "order": 2
     },
     {
-      "id": "github",
-      "name": "GitHub",
-      "title": "Where developers build software",
-      "url": "https://github.com",
-      "icon": "https://github.com/favicon.ico",
-      "category": "Development",
+      "id": "duckduckgo",
+      "name": "DuckDuckGo",
+      "title": "Private web search",
+      "url": "https://duckduckgo.com",
+      "icon": "https://duckduckgo.com/favicon.ico",
+      "category": "Search",
       "order": 3
     },
     {
-      "id": "chatgpt",
-      "name": "ChatGPT",
-      "title": "AI assistant for work and ideas",
-      "url": "https://chatgpt.com",
-      "icon": "https://chatgpt.com/favicon.ico",
-      "category": "AI",
+      "id": "brave-search",
+      "name": "Brave Search",
+      "title": "Independent search",
+      "url": "https://search.brave.com",
+      "icon": "https://search.brave.com/favicon.ico",
+      "category": "Search",
       "order": 4
     },
     {
-      "id": "facebook",
-      "name": "Facebook",
-      "title": "Connect with friends and communities",
-      "url": "https://www.facebook.com",
-      "icon": "https://www.facebook.com/favicon.ico",
-      "category": "Social",
+      "id": "startpage",
+      "name": "Startpage",
+      "title": "Private Google results",
+      "url": "https://www.startpage.com",
+      "icon": "https://www.startpage.com/favicon.ico",
+      "category": "Search",
       "order": 5
     },
+
     {
-      "id": "reddit",
-      "name": "Reddit",
-      "title": "Discover communities and discussions",
-      "url": "https://www.reddit.com",
-      "icon": "https://www.reddit.com/favicon.ico",
-      "category": "Social",
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "title": "AI assistant",
+      "url": "https://chatgpt.com",
+      "icon": "https://chatgpt.com/favicon.ico",
+      "category": "AI",
       "order": 6
     },
     {
-      "id": "gmail",
-      "name": "Gmail",
-      "title": "Email from Google",
-      "url": "https://mail.google.com",
-      "icon": "https://mail.google.com/favicon.ico",
-      "category": "Productivity",
+      "id": "claude",
+      "name": "Claude",
+      "title": "AI assistant by Anthropic",
+      "url": "https://claude.ai",
+      "icon": "https://claude.ai/favicon.ico",
+      "category": "AI",
       "order": 7
     },
     {
-      "id": "drive",
-      "name": "Google Drive",
-      "title": "Store and access your files",
-      "url": "https://drive.google.com",
-      "icon": "https://drive.google.com/favicon.ico",
-      "category": "Productivity",
+      "id": "gemini",
+      "name": "Gemini",
+      "title": "Google AI assistant",
+      "url": "https://gemini.google.com",
+      "icon": "https://gemini.google.com/favicon.ico",
+      "category": "AI",
       "order": 8
     },
     {
-      "id": "telegram",
-      "name": "Telegram",
-      "title": "Fast and secure messaging",
-      "url": "https://web.telegram.org",
-      "icon": "https://telegram.org/favicon.ico",
-      "category": "Messaging",
+      "id": "perplexity",
+      "name": "Perplexity",
+      "title": "AI-powered answer engine",
+      "url": "https://www.perplexity.ai",
+      "icon": "https://www.perplexity.ai/favicon.ico",
+      "category": "AI",
       "order": 9
     },
     {
-      "id": "whatsapp",
-      "name": "WhatsApp",
-      "title": "Simple private messaging",
-      "url": "https://web.whatsapp.com",
-      "icon": "https://web.whatsapp.com/favicon.ico",
-      "category": "Messaging",
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "title": "AI research assistant",
+      "url": "https://chat.deepseek.com",
+      "icon": "https://chat.deepseek.com/favicon.ico",
+      "category": "AI",
       "order": 10
     },
     {
-      "id": "stackoverflow",
-      "name": "Stack Overflow",
-      "title": "Questions and answers for developers",
-      "url": "https://stackoverflow.com",
-      "icon": "https://stackoverflow.com/favicon.ico",
-      "category": "Development",
+      "id": "copilot",
+      "name": "Microsoft Copilot",
+      "title": "Microsoft AI assistant",
+      "url": "https://copilot.microsoft.com",
+      "icon": "https://copilot.microsoft.com/favicon.ico",
+      "category": "AI",
       "order": 11
+    },
+    {
+      "id": "poe",
+      "name": "Poe",
+      "title": "AI chat platform",
+      "url": "https://poe.com",
+      "icon": "https://poe.com/favicon.ico",
+      "category": "AI",
+      "order": 12
+    },
+
+    {
+      "id": "github",
+      "name": "GitHub",
+      "title": "Build and collaborate on software",
+      "url": "https://github.com",
+      "icon": "https://github.com/favicon.ico",
+      "category": "Development",
+      "order": 13
     },
     {
       "id": "gitlab",
       "name": "GitLab",
-      "title": "DevSecOps platform for software development",
+      "title": "DevSecOps platform",
       "url": "https://gitlab.com",
       "icon": "https://gitlab.com/favicon.ico",
       "category": "Development",
-      "order": 12
+      "order": 14
+    },
+    {
+      "id": "stackoverflow",
+      "name": "Stack Overflow",
+      "title": "Developer questions and answers",
+      "url": "https://stackoverflow.com",
+      "icon": "https://stackoverflow.com/favicon.ico",
+      "category": "Development",
+      "order": 15
     },
     {
       "id": "npm",
@@ -116,25 +145,372 @@
       "url": "https://www.npmjs.com",
       "icon": "https://www.npmjs.com/favicon.ico",
       "category": "Development",
-      "order": 13
+      "order": 16
+    },
+    {
+      "id": "jsdelivr",
+      "name": "jsDelivr",
+      "title": "Open source CDN",
+      "url": "https://www.jsdelivr.com",
+      "icon": "https://www.jsdelivr.com/favicon.ico",
+      "category": "Development",
+      "order": 17
+    },
+    {
+      "id": "codepen",
+      "name": "CodePen",
+      "title": "Frontend code playground",
+      "url": "https://codepen.io",
+      "icon": "https://codepen.io/favicon.ico",
+      "category": "Development",
+      "order": 18
+    },
+    {
+      "id": "codesandbox",
+      "name": "CodeSandbox",
+      "title": "Online development environment",
+      "url": "https://codesandbox.io",
+      "icon": "https://codesandbox.io/favicon.ico",
+      "category": "Development",
+      "order": 19
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "title": "Online coding environment",
+      "url": "https://replit.com",
+      "icon": "https://replit.com/favicon.ico",
+      "category": "Development",
+      "order": 20
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "title": "Frontend deployment platform",
+      "url": "https://vercel.com",
+      "icon": "https://vercel.com/favicon.ico",
+      "category": "Development",
+      "order": 21
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "title": "Web development platform",
+      "url": "https://www.netlify.com",
+      "icon": "https://www.netlify.com/favicon.ico",
+      "category": "Development",
+      "order": 22
+    },
+    {
+      "id": "docker",
+      "name": "Docker Hub",
+      "title": "Container images and tools",
+      "url": "https://hub.docker.com",
+      "icon": "https://hub.docker.com/favicon.ico",
+      "category": "Development",
+      "order": 23
+    },
+    {
+      "id": "mdn",
+      "name": "MDN",
+      "title": "Web development documentation",
+      "url": "https://developer.mozilla.org",
+      "icon": "https://developer.mozilla.org/favicon.ico",
+      "category": "Development",
+      "order": 24
+    },
+    {
+      "id": "w3schools",
+      "name": "W3Schools",
+      "title": "Web development tutorials",
+      "url": "https://www.w3schools.com",
+      "icon": "https://www.w3schools.com/favicon.ico",
+      "category": "Development",
+      "order": 25
+    },
+    {
+      "id": "devto",
+      "name": "DEV Community",
+      "title": "Community for developers",
+      "url": "https://dev.to",
+      "icon": "https://dev.to/favicon.ico",
+      "category": "Development",
+      "order": 26
+    },
+
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "title": "Email by Google",
+      "url": "https://mail.google.com",
+      "icon": "https://mail.google.com/favicon.ico",
+      "category": "Productivity",
+      "order": 27
+    },
+    {
+      "id": "drive",
+      "name": "Google Drive",
+      "title": "Cloud file storage",
+      "url": "https://drive.google.com",
+      "icon": "https://drive.google.com/favicon.ico",
+      "category": "Productivity",
+      "order": 28
+    },
+    {
+      "id": "docs",
+      "name": "Google Docs",
+      "title": "Online documents",
+      "url": "https://docs.google.com",
+      "icon": "https://docs.google.com/favicon.ico",
+      "category": "Productivity",
+      "order": 29
+    },
+    {
+      "id": "sheets",
+      "name": "Google Sheets",
+      "title": "Online spreadsheets",
+      "url": "https://sheets.google.com",
+      "icon": "https://sheets.google.com/favicon.ico",
+      "category": "Productivity",
+      "order": 30
+    },
+    {
+      "id": "calendar",
+      "name": "Google Calendar",
+      "title": "Calendar and scheduling",
+      "url": "https://calendar.google.com",
+      "icon": "https://calendar.google.com/favicon.ico",
+      "category": "Productivity",
+      "order": 31
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "title": "Notes and workspace",
+      "url": "https://www.notion.so",
+      "icon": "https://www.notion.so/favicon.ico",
+      "category": "Productivity",
+      "order": 32
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "title": "Boards and task management",
+      "url": "https://trello.com",
+      "icon": "https://trello.com/favicon.ico",
+      "category": "Productivity",
+      "order": 33
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "title": "Task management",
+      "url": "https://todoist.com",
+      "icon": "https://todoist.com/favicon.ico",
+      "category": "Productivity",
+      "order": 34
+    },
+    {
+      "id": "evernote",
+      "name": "Evernote",
+      "title": "Notes and organization",
+      "url": "https://evernote.com",
+      "icon": "https://evernote.com/favicon.ico",
+      "category": "Productivity",
+      "order": 35
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "title": "Cloud file storage",
+      "url": "https://www.dropbox.com",
+      "icon": "https://www.dropbox.com/favicon.ico",
+      "category": "Cloud",
+      "order": 36
+    },
+    {
+      "id": "onedrive",
+      "name": "OneDrive",
+      "title": "Microsoft cloud storage",
+      "url": "https://onedrive.live.com",
+      "icon": "https://onedrive.live.com/favicon.ico",
+      "category": "Cloud",
+      "order": 37
+    },
+
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "title": "Social network",
+      "url": "https://www.facebook.com",
+      "icon": "https://www.facebook.com/favicon.ico",
+      "category": "Social",
+      "order": 38
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "title": "Photos and videos",
+      "url": "https://www.instagram.com",
+      "icon": "https://www.instagram.com/favicon.ico",
+      "category": "Social",
+      "order": 39
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "title": "Communities and discussions",
+      "url": "https://www.reddit.com",
+      "icon": "https://www.reddit.com/favicon.ico",
+      "category": "Social",
+      "order": 40
+    },
+    {
+      "id": "x",
+      "name": "X",
+      "title": "Social network and news",
+      "url": "https://x.com",
+      "icon": "https://x.com/favicon.ico",
+      "category": "Social",
+      "order": 41
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "title": "Professional networking",
+      "url": "https://www.linkedin.com",
+      "icon": "https://www.linkedin.com/favicon.ico",
+      "category": "Social",
+      "order": 42
     },
     {
       "id": "discord",
       "name": "Discord",
-      "title": "Chat and hang out with communities",
+      "title": "Community chat",
       "url": "https://discord.com",
       "icon": "https://discord.com/favicon.ico",
       "category": "Social",
-      "order": 14
+      "order": 43
     },
     {
-      "id": "spotify",
-      "name": "Spotify",
-      "title": "Music and podcasts",
-      "url": "https://open.spotify.com",
-      "icon": "https://open.spotify.com/favicon.ico",
+      "id": "telegram",
+      "name": "Telegram",
+      "title": "Messaging platform",
+      "url": "https://web.telegram.org",
+      "icon": "https://telegram.org/favicon.ico",
+      "category": "Messaging",
+      "order": 44
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "title": "Private messaging",
+      "url": "https://web.whatsapp.com",
+      "icon": "https://web.whatsapp.com/favicon.ico",
+      "category": "Messaging",
+      "order": 45
+    },
+    {
+      "id": "messenger",
+      "name": "Messenger",
+      "title": "Facebook messaging",
+      "url": "https://www.messenger.com",
+      "icon": "https://www.messenger.com/favicon.ico",
+      "category": "Messaging",
+      "order": 46
+    },
+
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "title": "Online shopping",
+      "url": "https://www.amazon.com",
+      "icon": "https://www.amazon.com/favicon.ico",
+      "category": "Shopping",
+      "order": 47
+    },
+    {
+      "id": "ebay",
+      "name": "eBay",
+      "title": "Online marketplace",
+      "url": "https://www.ebay.com",
+      "icon": "https://www.ebay.com/favicon.ico",
+      "category": "Shopping",
+      "order": 48
+    },
+    {
+      "id": "aliexpress",
+      "name": "AliExpress",
+      "title": "Global online marketplace",
+      "url": "https://www.aliexpress.com",
+      "icon": "https://www.aliexpress.com/favicon.ico",
+      "category": "Shopping",
+      "order": 49
+    },
+    {
+      "id": "daraz",
+      "name": "Daraz",
+      "title": "Online shopping in South Asia",
+      "url": "https://www.daraz.com.bd",
+      "icon": "https://www.daraz.com.bd/favicon.ico",
+      "category": "Shopping",
+      "order": 50
+    },
+
+    {
+      "id": "canva",
+      "name": "Canva",
+      "title": "Online design platform",
+      "url": "https://www.canva.com",
+      "icon": "https://www.canva.com/favicon.ico",
+      "category": "Design",
+      "order": 51
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "title": "Collaborative design",
+      "url": "https://www.figma.com",
+      "icon": "https://www.figma.com/favicon.ico",
+      "category": "Design",
+      "order": 52
+    },
+    {
+      "id": "adobe",
+      "name": "Adobe",
+      "title": "Creative tools",
+      "url": "https://www.adobe.com",
+      "icon": "https://www.adobe.com/favicon.ico",
+      "category": "Design",
+      "order": 53
+    },
+    {
+      "id": "photopea",
+      "name": "Photopea",
+      "title": "Online image editor",
+      "url": "https://www.photopea.com",
+      "icon": "https://www.photopea.com/favicon.ico",
+      "category": "Design",
+      "order": 54
+    },
+    {
+      "id": "remove-bg",
+      "name": "remove.bg",
+      "title": "Remove image backgrounds",
+      "url": "https://www.remove.bg",
+      "icon": "https://www.remove.bg/favicon.ico",
+      "category": "Design",
+      "order": 55
+    },
+
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "title": "Videos and creators",
+      "url": "https://www.youtube.com",
+      "icon": "https://www.youtube.com/favicon.ico",
       "category": "Entertainment",
-      "order": 15
+      "order": 56
     },
     {
       "id": "netflix",
@@ -143,43 +519,586 @@
       "url": "https://www.netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "category": "Entertainment",
-      "order": 16
+      "order": 57
     },
     {
-      "id": "canva",
-      "name": "Canva",
-      "title": "Design anything with ease",
-      "url": "https://www.canva.com",
-      "icon": "https://www.canva.com/favicon.ico",
-      "category": "Design",
-      "order": 17
+      "id": "spotify",
+      "name": "Spotify",
+      "title": "Music and podcasts",
+      "url": "https://open.spotify.com",
+      "icon": "https://open.spotify.com/favicon.ico",
+      "category": "Entertainment",
+      "order": 58
     },
     {
-      "id": "notion",
-      "name": "Notion",
-      "title": "Notes, docs, and project management",
-      "url": "https://www.notion.so",
-      "icon": "https://www.notion.so/favicon.ico",
-      "category": "Productivity",
-      "order": 18
+      "id": "twitch",
+      "name": "Twitch",
+      "title": "Live streaming",
+      "url": "https://www.twitch.tv",
+      "icon": "https://www.twitch.tv/favicon.ico",
+      "category": "Entertainment",
+      "order": 59
     },
+    {
+      "id": "imdb",
+      "name": "IMDb",
+      "title": "Movies and TV information",
+      "url": "https://www.imdb.com",
+      "icon": "https://www.imdb.com/favicon.ico",
+      "category": "Entertainment",
+      "order": 60
+    },
+
+    {
+      "id": "wikipedia",
+      "name": "Wikipedia",
+      "title": "Free encyclopedia",
+      "url": "https://www.wikipedia.org",
+      "icon": "https://www.wikipedia.org/favicon.ico",
+      "category": "Knowledge",
+      "order": 61
+    },
+    {
+      "id": "khan-academy",
+      "name": "Khan Academy",
+      "title": "Free online education",
+      "url": "https://www.khanacademy.org",
+      "icon": "https://www.khanacademy.org/favicon.ico",
+      "category": "Education",
+      "order": 62
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera",
+      "title": "Online courses",
+      "url": "https://www.coursera.org",
+      "icon": "https://www.coursera.org/favicon.ico",
+      "category": "Education",
+      "order": 63
+    },
+    {
+      "id": "edx",
+      "name": "edX",
+      "title": "Online learning",
+      "url": "https://www.edx.org",
+      "icon": "https://www.edx.org/favicon.ico",
+      "category": "Education",
+      "order": 64
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "title": "Online courses",
+      "url": "https://www.udemy.com",
+      "icon": "https://www.udemy.com/favicon.ico",
+      "category": "Education",
+      "order": 65
+    },
+    {
+      "id": "arxiv",
+      "name": "arXiv",
+      "title": "Scientific research papers",
+      "url": "https://arxiv.org",
+      "icon": "https://arxiv.org/favicon.ico",
+      "category": "Research",
+      "order": 66
+    },
+
     {
       "id": "cloudflare",
       "name": "Cloudflare",
-      "title": "Connectivity, security, and performance",
+      "title": "Internet infrastructure and security",
       "url": "https://www.cloudflare.com",
       "icon": "https://www.cloudflare.com/favicon.ico",
       "category": "Tools",
-      "order": 19
+      "order": 67
     },
     {
       "id": "speedtest",
       "name": "Speedtest",
-      "title": "Test your internet connection",
+      "title": "Internet speed test",
       "url": "https://www.speedtest.net",
       "icon": "https://www.speedtest.net/favicon.ico",
       "category": "Tools",
-      "order": 20
+      "order": 68
+    },
+    {
+      "id": "virustotal",
+      "name": "VirusTotal",
+      "title": "Analyze suspicious files and URLs",
+      "url": "https://www.virustotal.com",
+      "icon": "https://www.virustotal.com/favicon.ico",
+      "category": "Security",
+      "order": 69
+    },
+    {
+      "id": "haveibeenpwned",
+      "name": "Have I Been Pwned",
+      "title": "Check for exposed accounts",
+      "url": "https://haveibeenpwned.com",
+      "icon": "https://haveibeenpwned.com/favicon.ico",
+      "category": "Security",
+      "order": 70
+    },
+    {
+      "id": "urlscan",
+      "name": "URLScan",
+      "title": "Scan and inspect URLs",
+      "url": "https://urlscan.io",
+      "icon": "https://urlscan.io/favicon.ico",
+      "category": "Security",
+      "order": 71
+    },
+
+    {
+      "id": "translate",
+      "name": "Google Translate",
+      "title": "Translate languages",
+      "url": "https://translate.google.com",
+      "icon": "https://translate.google.com/favicon.ico",
+      "category": "Utilities",
+      "order": 72
+    },
+    {
+      "id": "maps",
+      "name": "Google Maps",
+      "title": "Maps and navigation",
+      "url": "https://maps.google.com",
+      "icon": "https://maps.google.com/favicon.ico",
+      "category": "Travel",
+      "order": 73
+    },
+    {
+      "id": "calendar",
+      "name": "Google Calendar",
+      "title": "Schedule and events",
+      "url": "https://calendar.google.com",
+      "icon": "https://calendar.google.com/favicon.ico",
+      "category": "Utilities",
+      "order": 74
+    },
+    {
+      "id": "keep",
+      "name": "Google Keep",
+      "title": "Notes and lists",
+      "url": "https://keep.google.com",
+      "icon": "https://keep.google.com/favicon.ico",
+      "category": "Utilities",
+      "order": 75
+    },
+    {
+      "id": "calculator",
+      "name": "Calculator",
+      "title": "Online calculator",
+      "url": "https://www.google.com/search?q=calculator",
+      "icon": "https://www.google.com/favicon.ico",
+      "category": "Utilities",
+      "order": 76
+    },
+
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "title": "Online payments",
+      "url": "https://www.paypal.com",
+      "icon": "https://www.paypal.com/favicon.ico",
+      "category": "Finance",
+      "order": 77
+    },
+    {
+      "id": "wise",
+      "name": "Wise",
+      "title": "International money transfer",
+      "url": "https://wise.com",
+      "icon": "https://wise.com/favicon.ico",
+      "category": "Finance",
+      "order": 78
+    },
+    {
+      "id": "xe",
+      "name": "XE",
+      "title": "Currency exchange rates",
+      "url": "https://www.xe.com",
+      "icon": "https://www.xe.com/favicon.ico",
+      "category": "Finance",
+      "order": 79
+    },
+    {
+      "id": "tradingview",
+      "name": "TradingView",
+      "title": "Markets and charts",
+      "url": "https://www.tradingview.com",
+      "icon": "https://www.tradingview.com/favicon.ico",
+      "category": "Finance",
+      "order": 80
+    },
+
+    {
+      "id": "amazon-web-services",
+      "name": "AWS",
+      "title": "Cloud computing platform",
+      "url": "https://aws.amazon.com",
+      "icon": "https://aws.amazon.com/favicon.ico",
+      "category": "Cloud",
+      "order": 81
+    },
+    {
+      "id": "google-cloud",
+      "name": "Google Cloud",
+      "title": "Cloud infrastructure",
+      "url": "https://cloud.google.com",
+      "icon": "https://cloud.google.com/favicon.ico",
+      "category": "Cloud",
+      "order": 82
+    },
+    {
+      "id": "azure",
+      "name": "Microsoft Azure",
+      "title": "Cloud computing platform",
+      "url": "https://azure.microsoft.com",
+      "icon": "https://azure.microsoft.com/favicon.ico",
+      "category": "Cloud",
+      "order": 83
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "title": "App development platform",
+      "url": "https://firebase.google.com",
+      "icon": "https://firebase.google.com/favicon.ico",
+      "category": "Development",
+      "order": 84
+    },
+
+    {
+      "id": "figma",
+      "name": "Figma",
+      "title": "Collaborative interface design",
+      "url": "https://www.figma.com",
+      "icon": "https://www.figma.com/favicon.ico",
+      "category": "Design",
+      "order": 85
+    },
+    {
+      "id": "unsplash",
+      "name": "Unsplash",
+      "title": "Free high-quality images",
+      "url": "https://unsplash.com",
+      "icon": "https://unsplash.com/favicon.ico",
+      "category": "Media",
+      "order": 86
+    },
+    {
+      "id": "pexels",
+      "name": "Pexels",
+      "title": "Free stock photos and videos",
+      "url": "https://www.pexels.com",
+      "icon": "https://www.pexels.com/favicon.ico",
+      "category": "Media",
+      "order": 87
+    },
+    {
+      "id": "pixabay",
+      "name": "Pixabay",
+      "title": "Free images and media",
+      "url": "https://pixabay.com",
+      "icon": "https://pixabay.com/favicon.ico",
+      "category": "Media",
+      "order": 88
+    },
+
+    {
+      "id": "linkedin-jobs",
+      "name": "LinkedIn Jobs",
+      "title": "Find jobs and careers",
+      "url": "https://www.linkedin.com/jobs",
+      "icon": "https://www.linkedin.com/favicon.ico",
+      "category": "Work",
+      "order": 89
+    },
+    {
+      "id": "indeed",
+      "name": "Indeed",
+      "title": "Job search",
+      "url": "https://www.indeed.com",
+      "icon": "https://www.indeed.com/favicon.ico",
+      "category": "Work",
+      "order": 90
+    },
+    {
+      "id": "upwork",
+      "name": "Upwork",
+      "title": "Freelancing marketplace",
+      "url": "https://www.upwork.com",
+      "icon": "https://www.upwork.com/favicon.ico",
+      "category": "Work",
+      "order": 91
+    },
+    {
+      "id": "fiverr",
+      "name": "Fiverr",
+      "title": "Freelance services marketplace",
+      "url": "https://www.fiverr.com",
+      "icon": "https://www.fiverr.com/favicon.ico",
+      "category": "Work",
+      "order": 92
+    },
+
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "title": "Global news",
+      "url": "https://www.bbc.com",
+      "icon": "https://www.bbc.com/favicon.ico",
+      "category": "News",
+      "order": 93
+    },
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "title": "Global news and information",
+      "url": "https://www.reuters.com",
+      "icon": "https://www.reuters.com/favicon.ico",
+      "category": "News",
+      "order": 94
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "title": "News and current affairs",
+      "url": "https://www.cnn.com",
+      "icon": "https://www.cnn.com/favicon.ico",
+      "category": "News",
+      "order": 95
+    },
+    {
+      "id": "prothom-alo",
+      "name": "Prothom Alo",
+      "title": "Bangladesh news",
+      "url": "https://www.prothomalo.com",
+      "icon": "https://www.prothomalo.com/favicon.ico",
+      "category": "Bangladesh",
+      "order": 96
+    },
+
+    {
+      "id": "booking",
+      "name": "Booking.com",
+      "title": "Hotels and travel",
+      "url": "https://www.booking.com",
+      "icon": "https://www.booking.com/favicon.ico",
+      "category": "Travel",
+      "order": 97
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb",
+      "title": "Stays and experiences",
+      "url": "https://www.airbnb.com",
+      "icon": "https://www.airbnb.com/favicon.ico",
+      "category": "Travel",
+      "order": 98
+    },
+    {
+      "id": "tripadvisor",
+      "name": "Tripadvisor",
+      "title": "Travel reviews and planning",
+      "url": "https://www.tripadvisor.com",
+      "icon": "https://www.tripadvisor.com/favicon.ico",
+      "category": "Travel",
+      "order": 99
+    },
+
+    {
+      "id": "archive",
+      "name": "Internet Archive",
+      "title": "Digital library and web archive",
+      "url": "https://archive.org",
+      "icon": "https://archive.org/favicon.ico",
+      "category": "Knowledge",
+      "order": 100
+    },
+    {
+      "id": "google-scholar",
+      "name": "Google Scholar",
+      "title": "Academic research",
+      "url": "https://scholar.google.com",
+      "icon": "https://scholar.google.com/favicon.ico",
+      "category": "Research",
+      "order": 101
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "title": "Stories and articles",
+      "url": "https://medium.com",
+      "icon": "https://medium.com/favicon.ico",
+      "category": "Reading",
+      "order": 102
+    },
+    {
+      "id": "substack",
+      "name": "Substack",
+      "title": "Newsletters and publications",
+      "url": "https://substack.com",
+      "icon": "https://substack.com/favicon.ico",
+      "category": "Reading",
+      "order": 103
+    },
+
+    {
+      "id": "pastebin",
+      "name": "Pastebin",
+      "title": "Share text and code",
+      "url": "https://pastebin.com",
+      "icon": "https://pastebin.com/favicon.ico",
+      "category": "Tools",
+      "order": 104
+    },
+    {
+      "id": "tinyurl",
+      "name": "TinyURL",
+      "title": "Shorten URLs",
+      "url": "https://tinyurl.com",
+      "icon": "https://tinyurl.com/favicon.ico",
+      "category": "Tools",
+      "order": 105
+    },
+    {
+      "id": "qr-code-generator",
+      "name": "QR Code Generator",
+      "title": "Create QR codes",
+      "url": "https://www.qr-code-generator.com",
+      "icon": "https://www.qr-code-generator.com/favicon.ico",
+      "category": "Tools",
+      "order": 106
+    },
+    {
+      "id": "regex101",
+      "name": "Regex101",
+      "title": "Test regular expressions",
+      "url": "https://regex101.com",
+      "icon": "https://regex101.com/favicon.ico",
+      "category": "Development",
+      "order": 107
+    },
+    {
+      "id": "jsonformatter",
+      "name": "JSON Formatter",
+      "title": "Format and validate JSON",
+      "url": "https://jsonformatter.org",
+      "icon": "https://jsonformatter.org/favicon.ico",
+      "category": "Development",
+      "order": 108
+    },
+    {
+      "id": "excalidraw",
+      "name": "Excalidraw",
+      "title": "Virtual whiteboard",
+      "url": "https://excalidraw.com",
+      "icon": "https://excalidraw.com/favicon.ico",
+      "category": "Design",
+      "order": 109
+    },
+    {
+      "id": "drawio",
+      "name": "diagrams.net",
+      "title": "Create diagrams online",
+      "url": "https://app.diagrams.net",
+      "icon": "https://app.diagrams.net/favicon.ico",
+      "category": "Design",
+      "order": 110
+    },
+
+    {
+      "id": "archive-org",
+      "name": "Internet Archive",
+      "title": "Digital library and web archive",
+      "url": "https://archive.org",
+      "icon": "https://archive.org/favicon.ico",
+      "category": "Knowledge",
+      "order": 111
+    },
+    {
+      "id": "openstreetmap",
+      "name": "OpenStreetMap",
+      "title": "Open map of the world",
+      "url": "https://www.openstreetmap.org",
+      "icon": "https://www.openstreetmap.org/favicon.ico",
+      "category": "Maps",
+      "order": 112
+    },
+    {
+      "id": "time-is",
+      "name": "Time.is",
+      "title": "Accurate time worldwide",
+      "url": "https://time.is",
+      "icon": "https://time.is/favicon.ico",
+      "category": "Utilities",
+      "order": 113
+    },
+    {
+      "id": "speedof-me",
+      "name": "SpeedOf.Me",
+      "title": "Internet speed test",
+      "url": "https://speedof.me",
+      "icon": "https://speedof.me/favicon.ico",
+      "category": "Tools",
+      "order": 114
+    },
+    {
+      "id": "downdetector",
+      "name": "Downdetector",
+      "title": "Check service outages",
+      "url": "https://downdetector.com",
+      "icon": "https://downdetector.com/favicon.ico",
+      "category": "Tools",
+      "order": 115
+    },
+    {
+      "id": "statuspage",
+      "name": "Statuspage",
+      "title": "Service status monitoring",
+      "url": "https://www.atlassian.com/software/statuspage",
+      "icon": "https://www.atlassian.com/favicon.ico",
+      "category": "Tools",
+      "order": 116
+    },
+    {
+      "id": "protonmail",
+      "name": "Proton Mail",
+      "title": "Private email",
+      "url": "https://mail.proton.me",
+      "icon": "https://mail.proton.me/favicon.ico",
+      "category": "Privacy",
+      "order": 117
+    },
+    {
+      "id": "proton-drive",
+      "name": "Proton Drive",
+      "title": "Private cloud storage",
+      "url": "https://drive.proton.me",
+      "icon": "https://drive.proton.me/favicon.ico",
+      "category": "Privacy",
+      "order": 118
+    },
+    {
+      "id": "proton-vpn",
+      "name": "Proton VPN",
+      "title": "Privacy-focused VPN",
+      "url": "https://protonvpn.com",
+      "icon": "https://protonvpn.com/favicon.ico",
+      "category": "Privacy",
+      "order": 119
+    },
+    {
+      "id": "tor",
+      "name": "Tor Project",
+      "title": "Privacy and anonymity tools",
+      "url": "https://www.torproject.org",
+      "icon": "https://www.torproject.org/favicon.ico",
+      "category": "Privacy",
+      "order": 120
     }
   ]
 }
