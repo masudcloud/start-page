@@ -1,1 +1,185 @@
-
+{
+  "version": 1,
+  "sites": [
+    {
+      "id": "google",
+      "name": "Google",
+      "title": "Search the world's information",
+      "url": "https://www.google.com",
+      "icon": "https://www.google.com/favicon.ico",
+      "category": "Search",
+      "order": 1
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "title": "Watch and discover videos",
+      "url": "https://www.youtube.com",
+      "icon": "https://www.youtube.com/favicon.ico",
+      "category": "Entertainment",
+      "order": 2
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "title": "Where developers build software",
+      "url": "https://github.com",
+      "icon": "https://github.com/favicon.ico",
+      "category": "Development",
+      "order": 3
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "title": "AI assistant for work and ideas",
+      "url": "https://chatgpt.com",
+      "icon": "https://chatgpt.com/favicon.ico",
+      "category": "AI",
+      "order": 4
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "title": "Connect with friends and communities",
+      "url": "https://www.facebook.com",
+      "icon": "https://www.facebook.com/favicon.ico",
+      "category": "Social",
+      "order": 5
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "title": "Discover communities and discussions",
+      "url": "https://www.reddit.com",
+      "icon": "https://www.reddit.com/favicon.ico",
+      "category": "Social",
+      "order": 6
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "title": "Email from Google",
+      "url": "https://mail.google.com",
+      "icon": "https://mail.google.com/favicon.ico",
+      "category": "Productivity",
+      "order": 7
+    },
+    {
+      "id": "drive",
+      "name": "Google Drive",
+      "title": "Store and access your files",
+      "url": "https://drive.google.com",
+      "icon": "https://drive.google.com/favicon.ico",
+      "category": "Productivity",
+      "order": 8
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "title": "Fast and secure messaging",
+      "url": "https://web.telegram.org",
+      "icon": "https://telegram.org/favicon.ico",
+      "category": "Messaging",
+      "order": 9
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "title": "Simple private messaging",
+      "url": "https://web.whatsapp.com",
+      "icon": "https://web.whatsapp.com/favicon.ico",
+      "category": "Messaging",
+      "order": 10
+    },
+    {
+      "id": "stackoverflow",
+      "name": "Stack Overflow",
+      "title": "Questions and answers for developers",
+      "url": "https://stackoverflow.com",
+      "icon": "https://stackoverflow.com/favicon.ico",
+      "category": "Development",
+      "order": 11
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "title": "DevSecOps platform for software development",
+      "url": "https://gitlab.com",
+      "icon": "https://gitlab.com/favicon.ico",
+      "category": "Development",
+      "order": 12
+    },
+    {
+      "id": "npm",
+      "name": "npm",
+      "title": "JavaScript package registry",
+      "url": "https://www.npmjs.com",
+      "icon": "https://www.npmjs.com/favicon.ico",
+      "category": "Development",
+      "order": 13
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "title": "Chat and hang out with communities",
+      "url": "https://discord.com",
+      "icon": "https://discord.com/favicon.ico",
+      "category": "Social",
+      "order": 14
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "title": "Music and podcasts",
+      "url": "https://open.spotify.com",
+      "icon": "https://open.spotify.com/favicon.ico",
+      "category": "Entertainment",
+      "order": 15
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "title": "Movies and TV shows",
+      "url": "https://www.netflix.com",
+      "icon": "https://www.netflix.com/favicon.ico",
+      "category": "Entertainment",
+      "order": 16
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "title": "Design anything with ease",
+      "url": "https://www.canva.com",
+      "icon": "https://www.canva.com/favicon.ico",
+      "category": "Design",
+      "order": 17
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "title": "Notes, docs, and project management",
+      "url": "https://www.notion.so",
+      "icon": "https://www.notion.so/favicon.ico",
+      "category": "Productivity",
+      "order": 18
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "title": "Connectivity, security, and performance",
+      "url": "https://www.cloudflare.com",
+      "icon": "https://www.cloudflare.com/favicon.ico",
+      "category": "Tools",
+      "order": 19
+    },
+    {
+      "id": "speedtest",
+      "name": "Speedtest",
+      "title": "Test your internet connection",
+      "url": "https://www.speedtest.net",
+      "icon": "https://www.speedtest.net/favicon.ico",
+      "category": "Tools",
+      "order": 20
+    }
+  ]
+}
