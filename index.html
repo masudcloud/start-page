@@ -15,7 +15,7 @@
   </div>
 
   <header class="top-area glass-ambient">
-    <div class="identity">
+    <div class="identity" aria-label="Start Page">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20 M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
     </div>
     <div class="top-controls">
@@ -31,29 +31,34 @@
       <p class="date" id="date">---</p>
     </div>
 
-    <h2 class="greeting" id="greeting">Welcome back.</h2>
+    <!-- Replaced Greeting with Weather -->
+    <div class="weather-container" id="weather-container" aria-live="polite">
+      <span class="weather-text" id="weather-text">--°C · Bangladesh</span>
+    </div>
 
-    <form class="search-container glass-primary" id="search-form">
+    <form class="search-container glass-primary" id="search-form" role="search">
       <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-      <input type="text" id="search-input" class="search-input" placeholder="Search the web" autocomplete="off" spellcheck="false">
-      <div class="shortcut-hint" id="shortcut-hint">⌘K</div>
+      <input type="text" id="search-input" class="search-input" placeholder="Search the web" autocomplete="off" spellcheck="false" aria-label="Search">
+      <div class="shortcut-hint" id="shortcut-hint" aria-hidden="true">⌘K</div>
     </form>
 
     <div class="favorites-grid" id="favorites-grid">
-      <!-- Injected via JS -->
+      <!-- Skeletons load immediately for perceived performance -->
+      <div class="favorite-skeleton"></div>
+      <div class="favorite-skeleton"></div>
+      <div class="favorite-skeleton"></div>
+      <div class="favorite-skeleton"></div>
     </div>
   </main>
 
-  <!-- Command Palette (Hidden by default) -->
+  <!-- Command Palette -->
   <dialog class="command-palette glass-primary" id="command-palette">
     <form class="palette-search" id="palette-form">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-      <input type="text" id="palette-input" placeholder="Search or type a command..." autocomplete="off">
+      <input type="text" id="palette-input" placeholder="Search websites or commands..." autocomplete="off">
     </form>
-    <ul class="palette-actions">
-      <li class="palette-item" tabindex="0">Open Settings</li>
-      <li class="palette-item" tabindex="0">Change Background</li>
-      <li class="palette-item" tabindex="0">Manage Favorites</li>
+    <ul class="palette-actions" id="palette-actions">
+      <!-- Injected via JS -->
     </ul>
   </dialog>
 
